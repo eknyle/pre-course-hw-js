@@ -1,7 +1,6 @@
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
-    married: true,
     address: {
         country: "USA",
         city: "Bobryisk"
@@ -22,7 +21,7 @@ function cloneFunction(obj){
     return newObj;
 }
 let cloneGuy=cloneFunction(passportMarried);
-cloneGuy.married=false;
+cloneGuy.married=true;
 
 
 console.log(passportMarried);
